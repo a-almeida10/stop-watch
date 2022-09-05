@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  background-color: #dee2e6;
+  color: #212529;
+}
+
+.dark-mode {
+  background-color: #212529;
+  color: #dee2e6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-container h1 {
+  font-size: 8vh;
+}
+.app-container p {
+  font-size: 20vh;
+}
+.app-container .buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  width: 100%;
+}
+.app-container .buttons .btn {
+  width: 5em;
+  font-size: 4vh;
+  padding: 1em;
+  cursor: pointer;
+  background-color: #dee2e6;
+  color: #212529;
+  border: 2px solid #212529;
+}
+.app-container .buttons .btn:hover, .app-container .buttons .btn:active, .app-container .buttons .btn:focus {
+  background-color: #212529;
+  color: #dee2e6;
+}
+
+.btn-dark {
+  height: 6vh;
+  padding: 1em;
+  margin: 1vh;
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
